@@ -1,0 +1,6 @@
+Here are the steps of the Selection Sort algorithm:
+
+  1.Find the minimum element in the unsorted part of the array.
+  2.Swap the minimum element with the first element of the unsorted 	part.
+  3.Move the boundary between the sorted and unsorted parts one 	element to the right.
+   4.Repeat the process until the entire array is sorted.
