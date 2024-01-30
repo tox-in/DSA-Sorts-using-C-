@@ -1,0 +1,17 @@
+Quicksort Algorithm:
+
+    Base Case:
+        If the array has one or zero elements, it is already sorted, and no further action is needed.
+
+    Choose Pivot:
+        Choose a pivot element from the array. The pivot can be any element, but for simplicity, we'll choose the last element.
+
+    Partition:
+        Partition the array into two subarrays:
+            Elements less than or equal to the pivot.
+            Elements greater than the pivot.
+        This step rearranges the elements such that the pivot is in its final sorted position.
+
+    Recursive Calls:
+        Recursively apply the Quicksort algorithm to the left and right subarrays.
+        Repeat steps 1-3 for each subarray.
